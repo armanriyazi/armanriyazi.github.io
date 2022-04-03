@@ -12,7 +12,7 @@ nav:
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Links':
-        - 'Links': 'links.md'              
+        - 'Links': 'personal-links.md'              
 theme:
   name: material
   logo: assets/attachments/me.jpeg
