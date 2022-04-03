@@ -1,0 +1,88 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: ArmanRiazi
+repo_url: https://github.com/armanriazi/armanriazi.github.io
+nav:    
+    - 'Home':
+        - 'Index': 'index.md'
+        - 'Walk-through': 'public/public.md'        
+        - 'Private': 'private/private.md'       
+    - 'About':
+        - 'About': 'about.md'        
+    - 'Tags':
+        - 'Tags': 'tags.md'      
+theme:
+  name: material
+  logo: assets/attachments/me.jpeg
+  favicon: assets/attachments/favicon.ico
+  language: en
+  features:
+  - search.suggest
+  - search.highlight
+  - search.share
+  - announce.dismiss
+  - header.autohide
+  - navigation.instant
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.expand  
+icon:
+   admonition:
+     note: octicons/tag-16
+     abstract: octicons/checklist-16
+     info: octicons/info-16
+     tip: octicons/squirrel-16
+     success: octicons/check-16
+     question: octicons/question-16
+     warning: octicons/alert-16
+     failure: octicons/x-circle-16
+     danger: octicons/zap-16
+     bug: octicons/bug-16
+     example: octicons/beaker-16
+     quote: octicons/quote-16
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - meta
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tilde
+plugins:  
+  - tags:
+     tags_file: tags.md
+  - search:
+      lang: en
+extra_css:
+  - assets/css/mkdocs-extra.css
+extra_javascript:
+  - assets/javascripts/mkdocs-extra.js
+extra:
+  homepage: https://armanriazi.github.io/
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/aramisit_token
+      name: ArmanRiazi on Twitter
+  copyright: Copyright &copy; 2022 Arman Riazi
+  generator: false
