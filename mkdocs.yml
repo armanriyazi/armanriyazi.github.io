@@ -11,6 +11,8 @@ nav:
         - 'About': 'about.md'        
     - 'Tags':
         - 'Tags': 'tags.md'      
+    - 'Links':
+        - 'Links': 'links.md'              
 theme:
   name: material
   logo: assets/attachments/me.jpeg
