@@ -5,6 +5,9 @@ https://cutt.ly/OPk7FT2
 Summery
 https://cutt.ly/2RrPcco
 
+* Youtube Channel
+https://cutt.ly/pyKrYMh
+  
 * Papers On Blockchain
 https://read.cash/@arman-riazi-science/
 https://ecency.com/@arman-riazi/
@@ -17,8 +20,6 @@ http://github.com/armanriazi
 *Gitlab
 http://gitlab.com/gitlabarmanriazi
 
-* Youtube Channel
-https://cutt.ly/pyKrYMh
 * Aparat Channel
 https://aparat.ir/armanriazi
 
@@ -52,3 +53,6 @@ Job:
 ◘ arman2job@gmail.com
 Research-formal:
 ◘ arman2riazi@sco.iaun.ac.ir
+
+* Skype ID
+  armanriazi
