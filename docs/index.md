@@ -7,9 +7,9 @@ permalink: /
 
 Project Title
 ===
-![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
+<!-- ![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
 ![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
-![chat](https://img.shields.io/discord/:serverId.svg)
+![chat](https://img.shields.io/discord/:serverId.svg) -->
 
 ## Table of Contents
 

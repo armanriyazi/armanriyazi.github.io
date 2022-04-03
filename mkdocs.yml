@@ -80,6 +80,7 @@ extra_css:
   - assets/css/mkdocs-extra.css
 extra_javascript:
   - assets/javascripts/mkdocs-extra.js
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 extra:
   homepage: https://armanriazi.github.io/
   social:

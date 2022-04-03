@@ -1,5 +1,3 @@
-Introduction of manufacturing technologies related to samples, works of 1395-89
-(Recent portfolio is shown as a slide in the clip of the first post.)
  
 [[Website Cultural Store]]
 
