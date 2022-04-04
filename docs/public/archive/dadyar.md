@@ -1,4 +1,4 @@
-[[Dadyar-Advocacy Software]]
+[[dadyar]]
 
 * Advanced reporting features with a variety of search filters by Crystal Report
 * Dynamic printing facilities for all types of petition forms and ...
