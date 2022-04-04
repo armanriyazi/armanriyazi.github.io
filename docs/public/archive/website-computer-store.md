@@ -5,16 +5,16 @@
 * Script features to display the slide section as well as on the main page of the site
 * Define dynamic photos and upload for display in the Slide Show section
 * Define their category management of products
-* Possibility of electronic payment by PEC WebServices
-  
-  ##### MVC
+* Possibility of electronic payment by PEC WebServices  
+ 
+##### MVC
 
-  ##### JQuery
+##### JQuery
 
-  ##### CMS
+##### CMS
 
-  ##### Electronic Payment
+##### Electronic Payment
 
-  ##### WebServices
+##### WebServices
   
   

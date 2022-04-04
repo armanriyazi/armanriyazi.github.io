@@ -1,103 +1,21 @@
 ---
-layout: page
+icon: material/emoticon-happy-outline
+search:
+exclude: false
+type:  Index
+keywords:   armanriazi ArmanRiazi
+feature:  Github 
 title: "Arman Riazi"
-permalink: /
-
+layout: page
+author: "Arman Riazi"
 ---
 
-Project Title
-===
 <!-- ![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
 ![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
 ![chat](https://img.shields.io/discord/:serverId.svg) -->
+![example workflow](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/mkdocs-ci/badge.svg)
 
-## Table of Contents
+[Go Surfing On...](public/public.md)
 
-[TOC]
-
-
-<iframe src="https://drive.google.com/file/d/1AHAyLYqtZVOE3TVCmCrCTsaS3Nu3dCfJ/preview" width="640" height="480" allow="autoplay"></iframe>
-
-<iframe src="https://drive.google.com/file/d/1Zomm3SgEBkq8y8SEuWLLKnKnmzglscTg/preview" width="640" height="480" allow="autoplay"></iframe>
-
-## Beginners Guide
-
-If you are a total beginner to this, start here!
-
-1. Visit hackmd.io
-2. Click "Sign in"
-3. Choose a way to sign in
-4. Start writing note!
-
-User story
----
-
-```gherkin=
-Feature: Guess the word
-
-  # The first example has two steps
-  Scenario: Maker starts a game
-    When the Maker starts a game
-    Then the Maker waits for a Breaker to join
-
-  # The second example has three steps
-  Scenario: Breaker joins a game
-    Given the Maker has started a game with the word "silky"
-    When the Breaker joins the Maker's game
-    Then the Breaker must guess a word with 5 characters
-```
-> I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it. [name=Bill Gates]
-
-
-```gherkin=
-Feature: Shopping Cart
-  As a Shopper
-  I want to put items in my shopping cart
-  Because I want to manage items before I check out
-
-  Scenario: User adds item to cart
-    Given I'm a logged-in User
-    When I go to the Item page
-    And I click "Add item to cart"
-    Then the quantity of items in my cart should go up
-    And my subtotal should increment
-    And the warehouse inventory should decrement
-```
-
-> Read more about Gherkin here: https://docs.cucumber.io/gherkin/reference/
-
-User flows
----
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-Note left of Alice: Alice responds
-Alice->Bob: Where have you been?
-```
-
-> Read more about sequence-diagrams here: http://bramp.github.io/js-sequence-diagrams/
-
-Project Timeline
----
-```mermaid
-gantt
-    title A Gantt Diagram
-
-    section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2014-01-12  , 12d
-    anther task      : 24d
-```
-
-> Read more about mermaid here: http://mermaid-js.github.io/mermaid/
-
-## Appendix and FAQ
-
-:::info
-**Find this document incomplete?** Leave a comment!
-:::
-
-###### tags: `Templates` `Documentation`
+???+ info
+<iframe src="https://drive.google.com/file/d/1S_nLnzPzeu4SYQ37S7fojPsKXDN8_I9j/preview" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:90%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"> ArmanRiazi-Signed </iframe>
