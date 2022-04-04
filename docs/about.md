@@ -15,7 +15,7 @@ author: "Mary Marple"
 > Getting Luxary services that you can afford.
 
 <!--<iframe src="https://drive.google.com/file/d/1g8he91nt_O4yo2feBwK2fD--sB3T-rVn/preview" width="720" height="420" allow="autoplay" loading="lazy" allowfullscreen="false"  style="border:1px solid black;" marginheight="0px" marginwidth="0px" scrolling="false" allow-downloads="false"></iframe>-->
-![Image title](assets/attachments/me.jpeg){ align=center,loading=lazy , width=600, height=300 }
+![Image title](assets/attachments/me.jpeg){ align=center,loading=lazy , width=400, height=200 }
 
 assets/attachments/me.jpeg
 

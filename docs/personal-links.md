@@ -1,58 +1,56 @@
 
 
-* English Resume
-https://cutt.ly/OPk7FT2
-Summery
-https://cutt.ly/2RrPcco
+* [English Resume](https://cutt.ly/OPk7FT2)
 
-* Youtube Channel
-https://cutt.ly/pyKrYMh
+* [Youtube Channel](https://cutt.ly/pyKrYMh)
+
   
-* Papers On Blockchain
-https://read.cash/@arman-riazi-science/
-https://ecency.com/@arman-riazi/
-https://arman-riazi-science.medium.com/
+###### Papers On Blockchain
 
-* Blockchain Repo
-https://github.com/armanriazi/Doc-Blockchain
-*Github
-http://github.com/armanriazi
-*Gitlab
-http://gitlab.com/gitlabarmanriazi
+> [Read.Cash](https://read.cash/@arman-riazi-science)
 
-* Aparat Channel
-https://aparat.ir/armanriazi
+> [Medium](https://arman-riazi-science.medium.com)
 
-* Linux foundation
-https://identity.linuxfoundation.org/users/armanriazi
+> [Ecency](https://ecency.com/@arman-riazi)
 
-* Linkedin
-https://www.linkedin.com/in/arman-riazi
-* ResearchGate
-https://www.researchgate.net/profile/Arman_Riazi2
-* Dev.to
-https://dev.to/@armanriazi
-* Stackoverflow
-https://stackoverflow.com/users/2095704/arman-riazi
-* codegrepper
-https://www.codegrepper.com/profile/arman
+* [Repo-Doc-Blockchain](https://github.com/armanriazi/Doc-Blockchain)
 
-* Linktr.ee
-https://linktr.ee/armanriazi
+* [Github](http://github.com/armanriazi)
 
-* Personal WebSite(Archived)
-http://arazhit.webredirect.org
-http://aramisit.theworkpc.com
-https://aramisit.ir
-https://armanriazi.ir
+* [Gitlab](http://gitlab.com/gitlabarmanriazi)
 
-* Email addresses:
-Developer:
-◘ arman2develop@gmail.com
-Job:
-◘ arman2job@gmail.com
-Research-formal:
-◘ arman2riazi@sco.iaun.ac.ir
+* [Aparat Channel](https://aparat.ir/armanriazi)
+
+* [Linux foundation](https://identity.linuxfoundation.org/users/armanriazi)
+
+* [Linkedin](https://www.linkedin.com/in/arman-riazi)
+
+* [ResearchGate](https://www.researchgate.net/profile/Arman_Riazi2)
+
+* [Dev.to](https://dev.to/@armanriazi)
+
+* [Stackoverflow](https://stackoverflow.com/users/2095704/arman-riazi)
+
+* [CodeGrepper](https://www.codegrepper.com/profile/arman)
+
+* [Linktr.ee](https://linktr.ee/armanriazi)
+
+###### Personal WebSite(Archived)
+  
+> [Arazhit](http://arazhit.webredirect.org)
+
+> [Aramisit](http://aramisit.theworkpc.com)
+
+> [ArmanRiazi](https://armanriazi.ir)
+
+###### Email addresses
+
+> [Job](mailto:arman2job@gmail.com)
+
+> [Developer](mailto:arman2develop@gmail.com)
+
+> [Scholar](mailto:arman2riazi@sco.iaun.ac.ir)
+
 
 * Skype ID
-  armanriazi
+>  armanriazi

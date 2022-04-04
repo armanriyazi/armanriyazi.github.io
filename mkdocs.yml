@@ -45,12 +45,16 @@ icon:
      example: octicons/beaker-16
      quote: octicons/quote-16
 markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist:
-      custom_checkbox: true
+      custom_checkbox: true  
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true       
   - pymdownx.snippets
-  - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.highlight:
       use_pygments: true

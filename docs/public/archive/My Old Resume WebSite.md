@@ -5,4 +5,6 @@
 * Define dynamic photos and upload for display in the Slide Show section
 
   ##### MVC
+
   ##### JQuery
+  

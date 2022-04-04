@@ -1,4 +1,4 @@
-[[Dadiar-Advocacy Software]]
+[[Dadyar-Advocacy Software]]
 
 * Advanced reporting features with a variety of search filters by Crystal Report
 * Dynamic printing facilities for all types of petition forms and ...
@@ -8,7 +8,12 @@
 * Security facilities for anonymous people to enter
 
 ##### Windows
+
 ##### CrystalReporter
+
 ##### Printer
+
 ##### Login
+
 ##### Telerik
+

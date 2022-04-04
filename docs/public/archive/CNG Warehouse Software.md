@@ -8,6 +8,9 @@
 * Ability to remind checks on the main page of the application
 
 ##### Reporter
+
 ##### Desktop
+
 ##### Windows
+
 ##### Telerik
