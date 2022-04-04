@@ -3,12 +3,12 @@ icon: material/emoticon-happy-outline
 search:
 exclude: false
 type:  Link
-keywords:  Link ArmanRiazi
+keywords:  Link armanriazi
 feature:  Link
 author: "Arman Riazi"
 layout: page
 title: "Personal Links"
-permalink: /plink
+permalink: /links
 ---
 # plink
 

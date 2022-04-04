@@ -2,11 +2,12 @@
 icon: material/emoticon-happy-outline
 search:
 exclude: false
-type:  English
-keywords:  English
-feature:  English
-title: "Example Page"
-author: "Mary Marple"
+type:  About
+keywords:  About armanriazi
+feature:  About 
+title: "About Me"
+layout: page
+author: "Arman Riazi"
 ---
 
 # About Me
