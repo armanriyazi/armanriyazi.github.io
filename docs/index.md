@@ -10,10 +10,7 @@ layout: page
 author: "Arman Riazi"
 ---
 
-<!-- ![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
-![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
-![chat](https://img.shields.io/discord/:serverId.svg) -->
-![example workflow](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/mkdocs-ci/badge.svg)
+[![mkdocs-ci](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml)
 
 [Go Surfing On...](public/public.md)
 
