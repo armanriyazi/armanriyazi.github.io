@@ -5,8 +5,8 @@
 
 * [Rust](rust/main.md)
 
-* [Archive 2016-2019](archive-2016-2019.md)
+* [Archive 2016-2019](archive/archive-2016-2019.md)
 
-* [Archived Until 2016](archive/archive-unil-2016.md)
+* [Archive Until 2016](archive/archive-until-2016.md)
 
 * [Links](other/main.md)
