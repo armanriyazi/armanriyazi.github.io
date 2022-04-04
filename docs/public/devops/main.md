@@ -1,11 +1,11 @@
 
 
-[cloud-services](cloud-services.md)
+[Cloud](Cloud.md)
 
-[virtualization](virtualization.md)
+[Virtualization](Virtualization.md)
 
-[elastic-search](elastic-search.md)
+[Elastic-Search](Elastic-Search.md)
 
-[kubernetes](kubernetes.md)
+[Kubernetes](Kubernetes.md)
 
 

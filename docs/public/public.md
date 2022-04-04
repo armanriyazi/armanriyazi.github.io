@@ -5,6 +5,8 @@
 
 * [Rust](rust/main.md)
 
+* [DevOps Engineer](devops/main.md)
+
 * [Archive-Projects](archive/main.md)
 
 * [Links](other/main.md)

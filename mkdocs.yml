@@ -58,6 +58,8 @@ icon:
      example: fontawesome/solid/flask
      quote: fontawesome/solid/quote-left     
 markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -98,6 +100,8 @@ extra_css:
 extra_javascript:
   - assets/javascripts/mkdocs-extra.js
   - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra:
   homepage: https://armanriazi.github.io/
   social:

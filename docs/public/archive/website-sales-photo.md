@@ -1,7 +1,7 @@
 
 # WebSite Sales Photo
  
-* Ability to online payment
+* Ability to online [[Payment]]
 * Ability to upload and download multiple image files simultaneously
 * Having a website visitor statistics section
 * Ability to search advanced images in the gallery

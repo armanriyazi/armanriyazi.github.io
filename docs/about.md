@@ -38,7 +38,7 @@ author: "Arman Riazi"
 | Polkadot & Kusuma        |      1 M     |        :material-check-all::material-check:          |       Crowdloan, tokenization💲, parachain and parathreads         |
 | Blockchain research       |      6 M        |        :material-check-all::material-check:          |        It is always included in my routine activity during a day        |
 
-About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate, 2 months research on Polkadot ecosystem, 6 month scholar research on blockchain. There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM** to apply for mixing experiences and technologies that lead to **Defi2.0 & Web3.0**.
+About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate, 2 months research on Polkadot ecosystem, 6 month scholar research on blockchain. There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM**[[Substrate]][[WASM]] to apply for mixing experiences and technologies that lead to **Defi2.0 & Web3.0**.
  
  > Hands-On Experience With Blockchain Developing.
 
@@ -58,9 +58,9 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 
  > Cryptocurrency #trading and using financial services. 
 
- > Graduated **M.Sc** In Field Of Information Technology. 
+ > Graduated **M.Sc**[[MasterThesis]] In Field Of Information Technology. 
  
- Over 10 years of experience in designing, developing, deploying, analyzing, and implementing cloud-native, web, and software engineers. 
+ Over 10 years of experience in designing, developing, deploying, analyzing, and implementing [[Cloud]]-native, web, and software engineers. 
  
  Expertise in the architecture of #Microservices and distributed systems, and modifying related application code. Capable of learning new programming languages and technologies. 
 
