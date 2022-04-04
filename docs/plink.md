@@ -1,4 +1,16 @@
-
+---
+icon: material/emoticon-happy-outline
+search:
+exclude: false
+type:  Link
+keywords:  Link ArmanRiazi
+feature:  Link
+author: "Arman Riazi"
+layout: page
+title: "Personal Links"
+permalink: /plink
+---
+# plink
 
 * [English Resume](https://cutt.ly/OPk7FT2)
 
