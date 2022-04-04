@@ -13,7 +13,7 @@
     
     
       
-        <title>Hyperledger Golang - Arman Riazi</title>
+        <title>Kubernetes Capabilities - Arman Riazi</title>
       
     
     
@@ -60,6 +60,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#kubernetes-capabilities" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -90,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hyperledger Golang
+              Kubernetes Capabilities
             
           </span>
         </div>
@@ -499,12 +504,30 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/blockchain/Hyperledger_Golang.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/devops/kubernetes.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
@@ -513,46 +536,25 @@
 
 
 
-  <h1>Hyperledger Golang</h1>
-
-<!DOCTYPE html>
-<p><html lang="fa-IR"></p>
-<p><head>
-    <meta charset="UTF-8">
-    <meta name="description" content="داشبورد ساز  هوشمند">
-    <meta name="keywords" content="Dashboard, Data, Information, html, cryptocurrency,btc,eth,blockchain,parachain,kusuma">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>راهکار هایی برای موفقیت در کسب و کار - بلاکچین و هوشمندسازی</title></p>
-<div class="highlight"><pre><span></span><code>&lt;!-- Google Font --&gt;
-&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
-
-&lt;!-- Css Styles --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.min.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/font-awesome.min.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/barfiller.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/nowfont.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/rockville.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/magnific-popup.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/owl.carousel.min.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/slicknav.min.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; type=&quot;text/css&quot;&gt;
-</code></pre></div>
-<p></head></p>
-<body>
-<p dir="rtl" style="text-align: left;"><span style="font-size: 12pt; font-family: 'times new roman', times;"><strong>Features</strong></span></p>
-<p dir="rtl" style="text-align: left;"><span style="font-size: 11pt; color: #ff00ff; background-color: #ffff99; font-family: 'times new roman', times;"><strong>G</strong>olang</span></p>
-<p dir="rtl" style="text-align: left;"><span style="font-size: 12pt; color: #ff00ff; background-color: #ffff99; font-family: 'times new roman', times;">On-premise</span></p>
-<p dir="rtl" style="text-align: left;"><span style="font-size: 11pt; color: #ff00ff; background-color: #ffff99; font-family: 'times new roman', times;">Define Blockchain as manual and changeable</span></p>
-<p dir="rtl" style="text-align: left;"><span style="background-color: #ffff99; color: #ff00ff; font-size: 11pt; font-family: 'times new roman', times;">Scratch Structure</span></p>
-<p dir="rtl" style="text-align: left;"><span style="background-color: #ffff99; color: #ff00ff; font-size: 11pt; font-family: 'times new roman', times;">Deploy on docker</span></p>
-<p dir="rtl" style="text-align: left;"><span style="background-color: #ffff99; color: #ff00ff; font-size: 11pt; font-family: 'times new roman', times;">Scale-up by Kubernetes</span></p>
-<p dir="rtl" style="text-align: left;"><span style="background-color: #ffff99; color: #ff00ff; font-size: 11pt; font-family: 'times new roman', times;">No need for pay-as-you-go services</span></p>
-<p dir="rtl" style="text-align: left;"><span style="background-color: #ffff99; color: #ff00ff; font-size: 11pt; font-family: 'times new roman', times;">Complex implementation</span></p>
-<p dir="rtl" style="text-align: left;"><span style="font-family: 'times new roman', times;"> </span></p>
-<p style="text-align: center;"><span style="font-family: 'times new roman', times;"><iframe src="https://pasteboard.co/JFkXhyx.gif" width="800" height="600" frameborder="0" scrolling="no"></iframe></span></p>
-</body>
-<p></html></p>
+<h1 id="kubernetes-capabilities">Kubernetes Capabilities</h1>
+<blockquote>
+<p>Scheduling and orchestrating application containers</p>
+<p>As an Infrastructure for Microservices </p>
+<p>Integrate with hundreds of tools such as (ELK, Rancher, ...)</p>
+<p>Optimal use of consume resources</p>
+<p>To increase speed and self-organize while the team doing develop</p>
+<p>Protecting the Website from Attacks</p>
+<p>Website maintenance without interruption and guaranteed</p>
+<blockquote>
+<p>It has been defined go through the CaaS layers like Rancher, but we know that this service itself is a Micro PaaS. I prefer to use kubernetes in the Rancher.</p>
+</blockquote>
+</blockquote>
+<p><a href="https://www.aparat.com/v/GxwY1" target="_blank">
+Show used Features 
+</a></p>
+<p><a href="https://www.aparat.com/v/tcmlq" target="_blank">
+Show Part 1- used kubernetes version 1.0
+</a></p>
 
               
             </article>

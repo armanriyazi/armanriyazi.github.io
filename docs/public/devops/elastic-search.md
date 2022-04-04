@@ -1,9 +1,20 @@
-﻿Rest API 
-Database 
-Search 
-Crawler 
-Analyze 
-Dashboard 
-Quaryable 
-Scalability
-Machine learning 
+﻿## Features
+
+> Rest API 
+> 
+> Database 
+> 
+> Search 
+> 
+> Crawler 
+> 
+> Analyze 
+> 
+> Dashboard 
+> 
+> Quaryable 
+> 
+> Scalability
+> 
+> Machine learning 
+> 

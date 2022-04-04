@@ -13,7 +13,7 @@
     
     
       
-        <title>Kubernetes - Arman Riazi</title>
+        <title>Solidity - Arman Riazi</title>
       
     
     
@@ -90,7 +90,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Kubernetes
+              Solidity
             
           </span>
         </div>
@@ -504,7 +504,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/devops/Kubernetes.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/blockchain/solidity.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
@@ -513,63 +513,19 @@
 
 
 
-  <h1>Kubernetes</h1>
+  <h1>Solidity</h1>
 
-<!DOCTYPE html>
-<p><html lang="fa-IR"></p>
-<p><head>
-    <meta charset="UTF-8">
-    <meta name="description" content="داشبورد ساز  هوشمند">
-    <meta name="keywords" content="Dashboard, Data, Information, html, cryptocurrency,btc,eth,blockchain,parachain,kusuma">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>راهکار هایی برای موفقیت در کسب و کار - بلاکچین و هوشمندسازی</title></p>
-<div class="highlight"><pre><span></span><code>&lt;!-- Google Font --&gt;
-&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
-
-&lt;!-- Css Styles --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.min.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/font-awesome.min.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/barfiller.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/nowfont.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/rockville.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/magnific-popup.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/owl.carousel.min.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/slicknav.min.css&quot; type=&quot;text/css&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; type=&quot;text/css&quot;&gt;
-</code></pre></div>
-<p></head></p>
-<body>
-<p dir="rtl" style="text-align: right;"><strong><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"> قابلیت های Kubernetes</span></strong></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt; color: #ff00ff; background-color: #ffff99;">زمان بندی و ارکسترسازی کانتینرهای اپلیکیشن</span></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt; color: #ff00ff; background-color: #ffff99;">استقرارسازی مایکروسرویس ها</span></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt; color: #ff00ff; background-color: #ffff99;">اتصال به صدها ابزار دیگر نظیر داشبورد</span></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt; color: #ff00ff; background-color: #ffff99;">استفاده بهینه از منابع</span></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt; color: #ff00ff; background-color: #ffff99;">سرعت در استقرارسازی تیم توسعه</span></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt; color: #ff00ff; background-color: #ffff99;">حفظ نمودن وبسایت از حملات </span></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt; color: #ff00ff; background-color: #ffff99;">حفظ نمودن وبسایت بدون قطعی و تضمین شده</span></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;">نما<a href="https://www.aparat.com/v/GxwY1" target="_blank">ش فیلم - اسلاید ویژگی ها </a></span></p>
-<p style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;"><a href="https://www.aparat.com/v/tcmlq" target="_blank">نمایش فیلم - اولین نسخه 10 کوبرنتیز که برای اولین بار استفاده شد</a></span></p>
-<p dir="rtl" style="text-align: right;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 10pt;">(در نسخه های بعدی و تاکنون بصورت حرفه ای از طریق لایه CaaS تعریف می شود اما می دانیم که این سرویس خود یک Micro PaaS می باشد)</span></p>
-<table style="height: 61px;" width="841">
-<tbody>
-<tr>
-<td style="text-align: center;"><img src="/images/uploaded/aramisit/projects/devops/Slide1.JPG" alt="" width="300" height="200" /></td>
-<td style="text-align: center;"><img src="/images/uploaded/aramisit/projects/devops/Slide2.JPG" alt="" width="300" height="200" /></td>
-</tr>
-<tr>
-<td style="text-align: center;"><img src="/images/uploaded/aramisit/projects/devops/Slide3.JPG" alt="" width="300" height="200" /></td>
-<td style="text-align: center;"><img src="/images/uploaded/aramisit/projects/devops/Slide8.JPG" alt="" width="300" height="200" /></td>
-</tr>
-<tr>
-<td> </td>
-<td> </td>
-</tr>
-</tbody>
-</table>
-<p style="text-align: right;"> </p>
-</body>
-<p></html></p>
+<p>Dapp Blockchain Development Applications are distributed in multiple programming languages. One of the most important of these is a development based on the Atrium network infrastructure. In the following example, a blockchain is used using the voting system. That only one person will have one vote.
+Transparency 
+Distributed 
+Integrity ETH 
+Base on Blockchain
+Private Test Network</p>
+<p>Example of Decentralized Program - Voting</p>
+<p>The following example is made of blockchain using a point-to-point trading system. Each user buys a product with their Atrium MetaMask wallet, which leads to the deduction of the amount of Atrium in the buyer's wallet and at the same time is credited to the seller's account according to the smart contract. This sample does not follow the internal network in the previous sample It uses an atrium test network called Kovan.</p>
+<p>Example of Decentralized Application - Point-to-point sales</p>
+<p>https://www.aparat.com/v/mTl3d</p>
+<p>https://www.aparat.com/v/QzG5x</p>
 
               
             </article>
