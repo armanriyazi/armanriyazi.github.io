@@ -9,5 +9,5 @@ author: "Arman Riazi"
 
 [Go Surfing On...](public/public.md)
 
-<!-- ![Image title](assets/attachments/banner-fire.gif) -->
+![alt](https://ipfs.io/ipfs/QmXEvRE4sRszXSCPTVFu71mSkXNcGedwa3hBiv8ZkbhhUh)
 
