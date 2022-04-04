@@ -12,7 +12,8 @@ nav:
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Links':
-        - 'Links': 'plink.md'              
+        - 'Links': 'links.md'        
+
 theme:
   name: material
   logo: assets/attachments/me.jpeg
@@ -44,37 +45,6 @@ icon:
      bug: octicons/bug-16
      example: octicons/beaker-16
      quote: octicons/quote-16
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tasklist:
-      custom_checkbox: true  
-  - pymdownx.tabbed:
-      alternate_style: true       
-  - pymdownx.snippets
-  - pymdownx.inlinehilite
-  - pymdownx.highlight:
-      use_pygments: true
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji 
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - attr_list
-  - md_in_html
-  - meta
-  - tables
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.betterem
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.mark
-  - pymdownx.tilde
 plugins:  
   - tags:
      tags_file: tags.md
