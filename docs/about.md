@@ -30,7 +30,7 @@ author: "Arman Riazi"
 
 | Exprt | Prd  |  Priority | Desc
 |:----------:|:-------------:|:---------------:|:---------------|
-| CryptoTrading | 1 Y  |  :material-check:      |  [Experience losts liquid because of trading crypto in 2021 🤕](public/mynotes/exp-2021cryprotrading.md)  |
+| CryptoTrading | 1 Y  |  :material-check:      |  [Experience losts liquid because of trading crypto in 2021 🤕](public/mynotes/exp-2021cryprotrading.md) - [Archived about Cryptocurrency](public/archive/archive-2019-2020.md) |
 |    Solidity  | 2 M         |    :material-check-all:   | It seems to me that there would be better languages for developing so in the near furure we need to low-level lang for improve performance hardware resources |
 | IBM HyperLedger       |      1 M        |        :material-check-all:          |  HyperLedger is suited for organizations especially. Hyperledger has got good community and uses cloud-native tools but I think it is not a real decentralized blockchain framework for scalability and giving governance so I used to decide a little bit work on it           |
 | Rust-Lang      | 4 M       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |

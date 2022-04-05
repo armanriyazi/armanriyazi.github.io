@@ -1,4 +1,6 @@
-# [[VSphere]] 7.1- Features
+# Virualization
+
+## [[VSphere]] 7.1- Features
 
 > Server virtualization
 > 

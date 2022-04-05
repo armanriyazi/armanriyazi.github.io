@@ -16,6 +16,65 @@ Keywords: [[Cloud]]Computing, #ContainerAllocation, [[Workflow]], #ACO
 
      <iframe src="https://drive.google.com/file/d/1VIpOwOa1r9XPfNfGD7re6VazoJchVezn/preview" width="640" height="480" allow="autoplay"></iframe>
 
+---
+
+Experimental Research: CloudSim-Workflow-Function-Container-Plus
+(Toward ServerMix)
+ArmanRiazi(AramisIT)Modeling And Simulation Of running containers on the host without needing a virtual machine.
+
+---
+
+**Pros:**
+Simulation of cost and performance
+Scalability: Container is very scalable than the virtual machines
+Elasticity: with separating logical code and data
+Decrease overhead
+Decrease the start time of tasks
+Fixed data dependency
+Resource management
+Workflow Engine management
+Resource Management
+**Cons:**
+Lack of clean code and more refactoring.
+exclude of design patterns, modular
+Not using Maven and Unit Test
+
+**Concepts:**
+Workflow: correspond with Function Composition on the simulation environment.
+Function as a Service(FaaS): Lambda or Cloud Function on the production environment.
+Cloudlet : the task of the client or job of workflow
+ACO Scheduler: Ant colony optimization
+Serverfull: include virtual machine/on-premises
+Serverless: no server, Event-driven, Provisioning, Scalability, FaaS
+ServerMix: The proposed model included both of them. In implementing simulation we did not use FaaS or Lambda functions but we have some situations and marks of the Serverless as a kind of theoretical because we implemented with the capability of elasticity that is one of the Serverless features. on the other hand, we are going to need event-driven and arrow functions in this java program.
+
+**Target:**
+Running Montage workflow base on the container. We have two repo for implementing:
+Container base on Vm: ([Cloudsim-Workflow-Function-Container](https://github.com/armanriazi/cloudsim-workflow-function-container)),([Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO))
+![image](https://cdn-images-1.medium.com/max/1000/1*smd8x7xJ1aGlcbs3ATrbbQ.png)
+Container base on host:([CloudSim-Workflow-Function-Container-Plus](https://github.com/armanriazi/Workflow-Function-Container-Plus)), ([Cloudsim-Workflow-Function-Container-ACO](https://github.com/armanriazi/Cloudsim-Workflow-Function-Container-ACO))
+
+![Montage-Workflow](https://cdn-images-1.medium.com/max/1000/1*HpB4119tw_aERjoMRyjtGQ.png)
+
+
+![Part of Class Diagram](https://cdn-images-1.medium.com/max/1000/1*QSosVKTZTz-XbnSTt9cGGQ.png)
+**Part of class diagram:** ContainerCloudsim class diagram
+
+![Part of Class Diagram](https://cdn-images-1.medium.com/max/1000/1*2Hta7uuNAGFpi-3nf6B-XA.png)
+**Sequential diagram of WFC architecture:**
+
+
+![Part of Class Diagram](https://cdn-images-1.medium.com/max/1000/1*vRm-lDsQSPdz65uQdJLJUg.png)
+**Proposed Architecture:** WFC has transparency and clarity on architecture and implemented java code.
+
+**Prerequisites:**
+Resolve project libraries include: commons-math3–3.2 | 3–6.1, flanagan, jdom-2.0.0, opencsv-2.3 (maybe)
+**Results with montage Num.X:**
+[Season 6](https://drive.google.com/file/d/1VIpOwOa1r9XPfNfGD7re6VazoJchVezn/preview)
+
+**Contact me:**
+Let me know how can I help you with developing and researching. I am eager to your suggestion
+
 ## References
 
 [1]  Malawski, M., Gajek, A., Zima, A., Balis, B., & Figiela, K. (2020). Serverless execution of scientific workflows: Experiments with hyperflow, aws lambda and google cloud functions. Future Generation Computer Systems, 110, 502-514.

@@ -8,8 +8,8 @@ author: "Arman Riazi"
 
 > In my opinion, most people who work in the scope of information technology(e.g. developers, devops engineers).
 > While they are learning or working to encounter a lot of information. They spend a lot of time on it that is not seen in comparison to manual jobs!
->  The philosophy of creating this page is to solve this issue.
 >  I prefer to create a knowledge base for myself and then share it.
+>  The philosophy of creating this page is to solve this issue.
  
 **[Go Surfing On...](public/public.md)**
 

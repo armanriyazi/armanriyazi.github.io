@@ -1,13 +1,19 @@
-﻿Features:
+﻿# HyperLedger-Fabric
 
-Blockchain as a service
+# HyperLedger-Azure
 
-Scale-up with Kubernetes
+## Features
 
-Docker-compose
+> Blockchain as a service
 
-Wrote by Hyperledger-Compose
+> Scale-up with Kubernetes
 
-Pay-as-you-go
+> Docker-Compose
 
-Secured by Microsoft
+> Wrote by Hyperledger-Compose
+
+> Pay-as-you-go
+
+> Secured by Microsoft
+
+![HyperLedger-IBM](../../assets/attachments/hyperleger-azure.JPG)
