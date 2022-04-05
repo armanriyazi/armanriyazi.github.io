@@ -7,6 +7,8 @@
 
 * [DevOps Engineer](devops/main.md)
 
+* [Master Thesis](university/master.md)
+
 * [Archive-Projects](archive/main.md)
 
 * [Links](other/main.md)

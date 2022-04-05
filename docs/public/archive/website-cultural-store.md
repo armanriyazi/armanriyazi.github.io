@@ -1,4 +1,4 @@
-# Website Cultural Store
+# Website Cultural Store [[Archived]]
  
 * Used AngularJs & WebApi technology
 * Respond to all user operations synchronously without to need to refresh the page
@@ -8,11 +8,15 @@
 * Used BootStrap
 * Dynamic categories from the Category attribute with getting updates from the database
   
-  ##### Angularjs
+  ##### [[Angularjs]]
 
   ##### Electronic Payment
 
   ##### SPA
 
-  ##### BootStrap
+  ##### [[BootStrap]]
   
+  ##### [[C#]]
+
+  ??? info
+    ![Sales Photo](../../assets/attachments/angular1.gif)

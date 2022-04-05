@@ -1,4 +1,4 @@
-# Website Computer Store
+# Website Computer Store [[Archived]]
  
 * Used MVC architecture
 * Event-oriented Drag & Drop home screen
@@ -15,6 +15,8 @@
 
 ##### Electronic Payment
 
-##### WebServices
+##### [[C#]]
   
-  
+
+??? info
+    ![Sales Photo](../../assets/attachments/mvcbuy.gif)  

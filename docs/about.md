@@ -58,7 +58,7 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 
  > Cryptocurrency #trading and using financial services. 
 
- > Graduated **M.Sc**[[MasterThesis]] In Field Of Information Technology. 
+ > Graduated **M.Sc**[[master]] In Field Of Information Technology. 
  
  Over 10 years of experience in designing, developing, deploying, analyzing, and implementing [[Cloud]]-native, web, and software engineers. 
  

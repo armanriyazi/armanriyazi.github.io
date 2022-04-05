@@ -23,6 +23,8 @@
     
 ??? info
      
+     ![ELK-Dashboard](https://aparat.com/v/qEyG9)
+     
      ![ELK-captured 2020](https://aparat.com/v/rsLZP)
      
      **Report of Gartner 2020 about ELK stack**

@@ -1,7 +1,7 @@
 
-# WebSite Sales Photo
+# WebSite Sales Photo [[Archived]]
  
-* Ability to online [[Payment]]
+* Ability to online payment
 * Ability to upload and download multiple image files simultaneously
 * Having a website visitor statistics section
 * Ability to search advanced images in the gallery
@@ -18,3 +18,10 @@
 ##### Filter
 
 ##### Crop
+
+##### [[ASP.NET]]
+
+##### [[C#]]
+
+??? info
+    ![Sales Photo](../../assets/attachments/main_4c9e5.gif)

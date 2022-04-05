@@ -1,4 +1,4 @@
-# CNG Warehouse [[Software]]
+# CNG Warehouse [[Software]] [[Archived]]
  
 * Advanced reporting features with a variety of search filters by Crystal [[Report]]
 * Computing facilities in the accounting department and presenting invoices to the [[Customer]]
@@ -14,3 +14,7 @@
 ##### Windows
 
 ##### Telerik
+
+??? info
+    ![CNG-1](../../assets/attachments/windows_5024b.gif)
+    ![CNG-1](../../assets/attachments/print.gif)

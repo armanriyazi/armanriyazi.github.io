@@ -1,4 +1,4 @@
-# [[CMS]] Builder
+# [[CMS]] Builder [[Archived]]
  
 * Use [[AngularJs]] & [[WebApi]] technology
 * Responds to all your operations without the need to refresh the page
