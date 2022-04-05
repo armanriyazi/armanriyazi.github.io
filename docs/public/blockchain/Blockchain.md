@@ -1,11 +1,10 @@
 
+[Solidity-2021](Solidity.md)
 
-[hyperledger-auzre-2020](hyperledger-azure.md)
+[Hyperledger-auzre-2020](Hyperledger-azure.md)
 
-[hyperledger-golang-2020](hyperledger-golang.md)
+[Hyperledger-golang-2020](Hyperledger-golang.md)
 
-[hyperledger-ibm-2020](HyperLedger-IBM.md)
+[Hyperledger-ibm-2020](HyperLedger-IBM.md)
 
-[solidity-2021](Solidity.md)
-
-[corda-r3-2021](corda-r3.md)
+[Corda-r3-2020](Corda-r3.md)

@@ -18,7 +18,7 @@ nav:
               
 theme:
   name: material
-  logo: assets/attachments/me.jpeg
+  logo: assets/attachments/me.png
   favicon: assets/attachments/favicon.ico
   language: en
   features:
