@@ -1,7 +1,7 @@
 
 * [Day-Notes 2022](day-notes/2022.md)
 
-* [Blockchain](blockchain/main.md)
+* [Blockchain](blockchain/Blockchain.md)
 
 * [Rust](rust/main.md)
 

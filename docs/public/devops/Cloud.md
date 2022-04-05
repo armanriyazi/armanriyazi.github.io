@@ -1,3 +1,1 @@
-﻿<a href="https://www.aparat.com/v/K1jqU" target="_blank">
- Using Cloud Services Part 1 Cloud9-AWS
-</a>
+﻿I worked a little bit on #AWS. I used services like [#Cloud9](https://www.aparat.com/v/K1jqU) for online editor like #gitpod. I am into IBM cloud for [Couchdb](https://github.com/armanriazi/riaziarman-vidly-api) and [[Blockchain]] as a service.

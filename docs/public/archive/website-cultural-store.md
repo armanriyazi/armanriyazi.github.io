@@ -8,15 +8,15 @@
 * Used BootStrap
 * Dynamic categories from the Category attribute with getting updates from the database
   
-  ##### [[Angularjs]]
+  ##### #Angularjs
 
-  ##### Electronic Payment
+  ##### #Electronic Payment
 
-  ##### SPA
+  ##### #SPA
 
-  ##### [[BootStrap]]
+  ##### #BootStrap
   
-  ##### [[C#]]
+  ##### #C#
 
   ??? info
-    ![Sales Photo](../../assets/attachments/angular1.gif)
+      ![Sales Photo](../../assets/attachments/angular1.gif)

@@ -5,21 +5,21 @@
 * Contains management software of the desktop application type on the server as well as coded (Socket-SilverLight) on web clients that call the server ID on their browser.
 * Ability to text chat and send files simultaneously and online
   
-##### Conference
+##### #Conference
  
 ##### Network Conference Site
  
-##### WebApp Chat 
+##### #WebApp Chat 
  
-##### Network Software
+##### Network #Software
  
 ##### Simultaneous chat schedule
 
-##### Silverlight
+##### #Silverlight
 
-##### C#
+##### #C#
 
   ??? info
-    ![Sales Photo](../../assets/attachments/windows_e513b.gif)
+      ![Sales Photo](../../assets/attachments/windows_e513b.gif)
 
     

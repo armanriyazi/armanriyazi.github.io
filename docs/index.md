@@ -1,5 +1,4 @@
 ---
-icon: material/emoticon-happy-outline
 keywords:   armanriazi ArmanRiazi
 feature:  Github 
 title: "Arman Riazi"

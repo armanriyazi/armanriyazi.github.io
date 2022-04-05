@@ -1,4 +1,4 @@
-#[[Advocate]]-Dadyar [[Archived]]
+#Advocate-Dadyar [[Archived]]
 
 * Advanced reporting features with a variety of search filters by Crystal Report
 * Dynamic printing facilities for all types of petition forms and ...
@@ -7,14 +7,13 @@
 * Has dynamic content presentation
 * Security facilities for anonymous people to enter
 
-##### Windows
+##### #Windows
 
-##### [[CrystalReporter]]
+##### #CrystalReporter
 
-##### Printer
+##### #Printer
 
-##### Login
-
-##### [[Telerik]]
+##### #Telerik
 
   ??? info
+      None

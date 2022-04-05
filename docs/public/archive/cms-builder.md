@@ -1,12 +1,15 @@
-# [[CMS]] Builder [[Archived]]
+# CMS Builder [[Archived]]
  
-* Use [[AngularJs]] & [[WebApi]] technology
+* Use #AngularJs & WebApi technology
 * Responds to all your operations without the need to refresh the page
-* Single Page Application([[SPA]])
+* Single Page Application SPA
 * Define tree structure
 
-##### Angular
+##### #Angular
 
-##### SPA
+##### #SPA
 
-##### CMS
+##### #CMS
+
+??? info
+    ![CNG-1](../../assets/attachments/angularcms.gif)
