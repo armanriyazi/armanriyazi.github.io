@@ -46,7 +46,7 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 
  > Experienced With Software Development Lifecycle. 
 
- > Experienced With **Cloud-Computing** And #DevOps #CloudNative Tools. 
+ > Experienced With **Cloud-Computing** And [[DevOps]]/[Link](public/devops/Devops.md) #CloudNative Tools. 
 
  > Expert In **Modern** Programming Languages.
 

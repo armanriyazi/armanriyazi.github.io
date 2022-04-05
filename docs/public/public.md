@@ -5,7 +5,7 @@
 
 * [Rust](rust/main.md)
 
-* [DevOps Engineer](devops/main.md)
+* [DevOps Engineer](devops/Devops.md)
 
 * [Master Thesis](university/master.md)
 
