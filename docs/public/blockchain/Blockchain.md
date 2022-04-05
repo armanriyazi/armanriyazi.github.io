@@ -1,6 +1,6 @@
 
 
-[hyperledger-auzre-2020](hyperledger-auzre.md)
+[hyperledger-auzre-2020](hyperledger-azure.md)
 
 [hyperledger-golang-2020](hyperledger-golang.md)
 

@@ -17,9 +17,9 @@
 
 ##### #Silverlight
 
-##### #C#
+##### C#
 
-  ??? info
+??? info
       ![Sales Photo](../../assets/attachments/windows_e513b.gif)
 
     

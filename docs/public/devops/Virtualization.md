@@ -12,5 +12,5 @@
 > 
 > Run multiple operating systems simultaneously
 
-??? quote
-     To know virtualization is obligate for blockchain developers. [[Senior]] full-stack developers have associated with it. My [[master]] [thesis](../university/master.md) have being demonstrated cloud and virtualization. The virtualization concepts are simulated as kind of containers and virtual machines.
+??? info
+     To know virtualization is obligate for blockchain developers. #Senior full-stack developers have associated with it. My [[master]] [thesis](../university/master.md) have being demonstrated cloud and virtualization. The virtualization concepts are simulated as kind of #container and #virtual #machine.

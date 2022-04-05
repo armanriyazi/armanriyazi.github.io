@@ -21,7 +21,7 @@
 
 ##### #ASP.NET
 
-##### #C#
+##### C#
 
 ??? info
     ![Sales Photo](../../assets/attachments/main_4c9e5.gif)

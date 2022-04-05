@@ -17,6 +17,6 @@
 
   ##### #Payment
 
-  ??? info
+??? info
       ![Sales Photo](../../assets/attachments/main_aad70.gif)
   

@@ -16,7 +16,7 @@
 
   ##### #BootStrap
   
-  ##### #C#
+  ##### C#
 
-  ??? info
+??? info
       ![Sales Photo](../../assets/attachments/angular1.gif)

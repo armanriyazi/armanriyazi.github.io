@@ -15,5 +15,5 @@
 
 ##### #Telerik
 
-  ??? info
+??? info
       None
