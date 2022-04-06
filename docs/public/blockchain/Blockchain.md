@@ -1,32 +1,36 @@
 
 # 2021-2023
- [Substrate](Substrate.md)
 
- [Polkadot](Polkadot.md)
-
- [Kusama](Kusama.md)
-
- [ParaState](ParaState.md)
-
- [WASM](WASM.md)
-
- [Rust](Rust.md)
 
 ### Passed self-study tutorials 
 
 ### Research
 <!-- [Blockchain-tutorials](Blockchain-tutorials.md) -->
+ [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)](whitepaper.md)
 
+ [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)](substrate-framework.md)
+
+ [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan/Part(3)](crowdloan.md)
+
+ [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/ParaState/Part(4)](parastate.md)
+
+ [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM/Part(5)](ewasm.md)
+
+ [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/SecondState/Part(6)](secondstate.md)
+
+ [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Rust-Lang/Part(7)](rust-lang.md)
+
+ [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](setup.md)
 
 # 2019-2020
 
 ### Sample Projects
 
-[Solidity-2021](Solidity.md)
+[Solidity](Solidity.md)
 
-[Hyperledger-2020](Hyperledger.md)
+[Hyperledger](Hyperledger.md)
 
-[Corda-r3-2020](Corda-r3.md)
+[Corda-r3](Corda-r3.md)
 
 ### Research
 [Blockchain-tutorials](Blockchain-tutorials.md)
@@ -64,6 +68,7 @@ Build a Blockchain and a cryptocurrnecy from scratch
 #### ◘ And many bookmarks that taked my attention and time :) for understanding leaf subjects of blockchain ◘
 #### Shared Research White Papers
 (link:https://1drv.ms/u/s!AiPa0TLEgzJ7jQ6q5Uj5CYjJKcik)
+#OneNote
 
 #### ◘ Published Summery:Blockchain Popular Platforms ◘
 That is all just for you:

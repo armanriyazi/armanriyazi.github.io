@@ -13,7 +13,7 @@
     
     
       
-        <title>Polkadot - Arman Riazi</title>
+        <title>Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan(3) - Arman Riazi</title>
       
     
     
@@ -60,6 +60,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#highlighted-deep-dive-into-polkadotsubstratekusamacrowdloan3" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -90,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Polkadot
+              Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan(3)
             
           </span>
         </div>
@@ -563,12 +568,30 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/blockchain/Polkadot.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/blockchain/crowdloan.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
@@ -577,10 +600,82 @@
 
 
 
-  <h1>Polkadot</h1>
-
-<p><a href="PolkadotHighlighted-P1">Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)</a></p>
-<p><a href="PolkadotHighlighted-P2">Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)</a></p>
+<h1 id="highlighted-deep-dive-into-polkadotsubstratekusamacrowdloan3">Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan(3)</h1>
+<h1 id="drgavin-wood-polkadotkusamaparastatesubstrate">Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate</h1>
+<p>👩‍🏫👩‍🏫👩‍🏫</p>
+<p>*Introducing</p>
+<p>Kusama is a <strong>canary</strong> network for Polkadot; Kusama is a <strong>proving ground for runtime upgrades, on-chain governance, and parachains</strong>. The network is a permissionless.Kusama does not support smart contracts natively.The Kusama network is Polkadot's experimental, community-focused R&amp;D network.  </p>
+<p>👆👆👆</p>
+<h1 id="accountthese-are-transfer-and-transfer_keep_alive-transfer-will-allow-you-to-send-ksm-regardless-of-the-consequence-transfer_keep_alive-will-not-allow-you-to-send-an-amount-that-would-allow-the-sending-account-to-be-removed-due-to-it-going-below-the-existential-deposit">AccountThese are transfer and transfer_keep_alive. transfer will allow you to send KSM regardless of the consequence; transfer_keep_alive will not allow you to send an amount that would allow the sending account to be removed due to it going below the existential deposit.</h1>
+<p>By default, Polkadot-JS Apps will use transfer_keep_alive, ensuring that the account you send from cannot drop below the existential deposit of 0.001666 KSM.</p>
+<p>it may be that you *<em>do not want to keep this account alive (for example, because you are moving all of your funds to a different address). *</em></p>
+<p>Note: Even if the transfer fails due to a keep-alive check, the transaction fee will be deducted from the sending account if you attempt to transfer.</p>
+<p><strong>Currently, Kusama does not use the Assets Pallet,</strong> so this is probably not the reason for your tokens having existing references.</p>
+<p><strong>Currently, Kusama does not use the Recovery Pallet,</strong> so this is probably not the reason for your tokens having existing references.</p>
+<p>On Kusama, you can check if recovery has been set up by checking the recovery.recoverable(AccountId) chain state. This can be found under Developer &gt; Chain state in PolkadotJS Apps.</p>
+<p>👆👆👆</p>
+<h1 id="parachain-slots-auction">Parachain-Slots-Auction</h1>
+<p>Polkadot Parachain Auctions do not offer a free and open environment as we have seen with ERC20 tokens, where the only thing needed was a white paper to deploy a smart contract on the Ethereum Blockchain. Such a feature allows for flexibility in the Polkadot ecosystem where every Parachain can create its own set of rules</p>
+<p>Basically, Polkadot Parachain Auctions are <strong>automated candle auctions</strong> (with some adjustments relevant to blockchain technology). It means that there is an opening period and an ending period. At any moment the winner can be chosen but we will only find it out at the end. It is not easy to get access to the Polkadot Relay Chain, and, currently, Parachains prefer to use crowdloan mechanism to collect funds to participate in Polkadot Parchain Auctions.</p>
+<p>To participate in the PolkadotParachain Auction and compete for a slot, prospective Parachains can bid in two ways:</p>
+<p><strong>Parachains can bid their own DOT, through a single account</strong></p>
+<p>*<em>Parachains can use crowdloans to crowdsource DOT and bid it in the auctions *</em></p>
+<p>Users cannot participate in the Polkadot Parachain Auction directly. Users can only participate indirectly via crowd loans by contributing and locking DOT.</p>
+<p>Shared security and processing of transactions don’t come for free. One of the ways to access them is to lease a slot on the Relay Chain. Projects compete to place the highest bid to get the slot. The first Polkadot Parachain Auction winner, via the process known as Crowdloan Campaign, raised 32.5 million DOT (around 1.3 billion USD at that time) to lease the slot for two years.</p>
+<p>A Parachain slot is a scarce resource. Given an increase in the number of Parachains, every few months new Parachains slots will be added. The Polkadot ultimate goal is to have 100 slots.</p>
+<p>@crowdsale-VS-crowdloan </p>
+<p>crowdsale and crowdloan which makes sense because they sound the same. they are similar but there are some very key differences for example <strong>crowdsale</strong> I am sure you're familiar with it's kind of like platforms along the lines of <strong>kickstarter</strong> so you fund a project say <strong>creating a backpack that sings and lights up and then you give the funds to eventually get the product knowing that it's not created yet</strong> and then the creator uses those funds to make the product and then eventually you'll get that product in the mail so you are buying an actual thing and then you get that thing but you never get your original funds back  where a <strong>crowdloan is very different</strong> so you're finding a specific function for example a parachain slot and it can only be used for that purpose it can't be used for anything else and then all funds that you contribute are delivered back to you once the lease is up so anything you contributed originally comes right back to you and it's not like you're putting funds down and you never see them again but you get something else in return and so parachain teams don't have control over the funds it's locked in the relay chain which prevents rug pull so all of a sudden funds can't just disappear or someone takes all of them it's pretty much impossible for that to happen and then if the first attempt to score slot isn't successful the crowd loan continues to try to score a parachain slot in the next round and then the next round until they do and all crowdloans do have an expiration date and that will all be specified in the outset so you should never be left in the dark you'll always have all the information you need so you can look forward to all the exciting things to come.</p>
+<p>the other thing to keep in mind is some projects have a <strong>rewards</strong> cap for their crowd loans so they can only give out so many rewards or they can only take so many contributions to the crowd loan or a certain amount so if you are set on wanting to participate it's always good to do it as soon as you feel ready um just in case you know there's a cut off or in case you can get bonus rewards.</p>
+<p>@ParachainAcution-vs-eBayAcution</p>
+<p>a common misconception in the cryptocurrency space is that a para chain slot auction is something that you have to actively participate in kind of like an auction on ebay but that actually couldn't be further from the truth and all you have to do is contribute you don't have to bid and the crowdloan does on behalf of the project so there's no stress for you and then there's a difference between a regular auction and then a parachain slot option which is used to decide which pair of chains get to be connected to the relay chain so it's not like bidding on ebay for a handbag or something like that and then there's the concept of a candle auction which means in the ending period which is the last five days the auction can just end at any time and no one knows when this will be no single human knows and it's <strong>completely automated and a mystery to everyone and so the crowdloan opens before the auction starts and it stays open until a winner is declared</strong> so definitely make sure to contribute while the crowd loan is still open and hopefully before your team scores a slot and you <strong>get lots of rewards.</strong></p>
+<p>There is also the possibility of a <strong>malicious bidder</strong> or a block producer trying to grief honest bidders by sniping auctions.</p>
+<p>For this reason, Vickrey auctions, a variant of second price auction in which bids are hidden and only revealed in a later phase, have emerged as a well-regarded mechanic. For example, it is implemented as the mechanism to auction human <strong>readable names on the ENS.</strong> The Candle auction is another solution that does not need the two-step commit and reveal schemes (a main component of Vickrey auctions), and for this reason <strong>allows smart contracts to participate.</strong></p>
+<p>Polkadot will use a random beacon based on the VRF that's used also in other places of the protocol. The <strong>VRF</strong> will provide the base of the randomness, which will retroactively <strong>determine the end-time of the auction.</strong></p>
+<p>1) Slot Action compatition(Weekly)</p>
+<p>2) if Won then</p>
+<p>3) Parachain Lease Relay chain (Yearly)</p>
+<p>The slot durations are capped to 1 year and divided into 6-week periods(KSM- 12m/3m=4m); The slot durations are capped to 2 years and divided into 3-month periods (DOT- 24m/3m=8m);Once the parachain lease ends (48 weeks maximum on Kusama, 96 weeks on Polkadot), funds are returned to the contributors.</p>
+<p>Parachains may lease a slot for any combination of periods of the slot duration. Parachains may lease more than one slot over time, meaning that they could extend their lease to Polkadot past the maximum duration by leasing a contiguous slot.</p>
+<p>Note: Individual parachain slots are fungible. This means that parachains do not need to always inhabit the same slot, but <strong>as long as a parachain inhabits any slot it can continue as a parachain.</strong>You Can’t (Technically) Combine Crowdloans and Private Bids</p>
+<p>Each period of the range 1 - 4 represents a 3-month duration for a total of 2 years.</p>
+<p>Bidders will submit a configuration of bids specifying the token amount they are willing to bond and for which periods. The slot ranges may be any of the periods 1 - n, where n is the number of periods available for a slot (n will be 8 for both Polkadot and Kusama).</p>
+<p><img alt="Polkadot" src="https://cdn.rcimg.net/arman-riazi-science/b817f983/ae71f11715314a58afb7eebf1c09c16d.png" /></p>
+<p><strong>highest bidder for any given slot lease period might not always win (see the example below).</strong></p>
+<p>There is one parachain slot available.</p>
+<p>Charlie bids 75 for the range 1 - 8.</p>
+<p>Dave bids 100 for the range 5 - 8.</p>
+<p>Emily bids 40 for the range 1 - 4.</p>
+<p>Let's calculate each bidder's valuation according to the algorithm. We do this by multiplying the bond amount by the number of periods in the specified range of the bid.</p>
+<p><strong>Charlie - 75 * 8 = 600 for range 1 - 8</strong></p>
+<p>Dave - 100 * 4 = 400 for range 5 - 8</p>
+<p>Emily - 40 * 4 = 160 for range 1 - 4</p>
+<p>Although Dave had the highest bid in accordance to token amount, when we do the calculations we see that since he only bid for a range of 4, he would need to share the slot with Emily who bid much less. Together Dave's and Emily's bids only equals a valuation of 560.</p>
+<p>A random number, which is based on the VRF used by Polkadot, is determined at each block. Additionally, each auction will have a threshold that starts at 0 and increases to 1. The random number produced by the VRF is examined next to the threshold to determine if that block is the end of the auction within the so-called ending period. </p>
+<p><strong>Charlie's valuation for the entire range is 600. Therefore Charlie is awarded the complete range of the parachain slot.</strong></p>
+<p>While each parachain auction is scheduled for seven days, the candle auction format means that the “end” date and time is a bit of a wildcard.</p>
+<p><img alt="Polkadot" src="https://cdn.rcimg.net/arman-riazi-science/b817f983/a360186ca4671c7895f36c69f26ff047.png" /></p>
+<p><strong>The first two days</strong> are confirmed to be an “open” period of the auction. </p>
+<p><strong>The following five days,</strong> however, fall within the “wick” of this theoretical candle, and the auction will end sometime in this five-day period.  so you won’t actually know in real-time when the auction ends.</p>
+<p>project must specify the following information:</p>
+<p>Parachain ID/Index (which parachain the bid or crowdloan will support)</p>
+<p>First and Last Slot <strong>(the lease is broken into 8 increments,</strong> and projects can bid on a partial or full lease period)</p>
+<p><img alt="Polkadot" src="https://cdn.rcimg.net/arman-riazi-science/b817f983/fd7cc5419a9d958125eea5fe12b7a67f.png" /></p>
+<p>While these crowdloan bids occur, the private-bid projects (Turquoise/Salmon) don’t have to enter additional bids. However, after Day 2, it becomes risky to wait since the auction can end at any time.</p>
+<p>Finally, on Day 4, Salmon Parachain enters a private bid of 5000 DOT and briefly takes the lead in the auction.</p>
+<p>Unfortunately, on Day 5, Salmon Parachain is quickly outbid by a private bid from Turquoise Parachain AND an increased bid from the Purple Parachain crowdloan module.</p>
+<p>These antics continue until Day 7 when the highest bid is Purple Parachain with 18,000 DOT. However, importantly, Purple does not win. The winner is Turquoise.</p>
+<p><strong>Turquoise Parachain wins the slot and is now able to connect to the Kusama network. This will likely happen soon after the slot is won since the lease period begins immediately.</strong> After the end of a lease period (48 week periods on Kusama and 96 week lease periods on Polkadot), the slot will be available for renewal or for another project to occupy.</p>
+<p>The remaining parachains must continue to compete for a slot, assuming their crowdloan modules remain open and the private bidders have the interest in pursuing a slot again, rather than waiting for a less competitive auction.</p>
+<p><strong>Unbonding takes 28 days</strong> on Polkadot and <strong>7 on Kusama</strong>. Ensure your staking and democracy holds are cleared.</p>
+<p>👆👆👆</p>
+<p>📚📚📚</p>
+<h1 id="literature">Literature</h1>
+<p>authorities win slots based on a verifiable random function = VRF</p>
+<p>the private-bid projects =  Individual parachain</p>
+<p>https://docs.substrate.io/v3/getting-started/glossary/</p>
+<p>❤️❤️❤️</p>
+<p>Researcher &amp; Organized by:</p>
+<p>🙏#Arman-Riazi🤝</p>
 
               
             </article>

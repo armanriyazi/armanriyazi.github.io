@@ -13,7 +13,7 @@
     
     
       
-        <title>Polkadot - Arman Riazi</title>
+        <title>Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM(5) - Arman Riazi</title>
       
     
     
@@ -60,6 +60,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#highlighted-deep-dive-into-polkadotsubstratekusamaewasm5" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -90,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Polkadot
+              Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM(5)
             
           </span>
         </div>
@@ -563,12 +568,30 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/blockchain/Polkadot.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/blockchain/ewasm.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
@@ -577,10 +600,72 @@
 
 
 
-  <h1>Polkadot</h1>
-
-<p><a href="PolkadotHighlighted-P1">Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)</a></p>
-<p><a href="PolkadotHighlighted-P2">Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)</a></p>
+<h1 id="highlighted-deep-dive-into-polkadotsubstratekusamaewasm5">Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM(5)</h1>
+<h1 id="drgavin-wood-polkadotkusamaparastatesubstrate">Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate</h1>
+<p>👩‍🏫👩‍🏫👩‍🏫</p>
+<p>*Introducing</p>
+<p>WebAssembly (or Wasm as a contraction) is a new, portable, size- and load-time-efficient format. A few key points: WebAssembly defines an instruction set, intermediate source format (WAST) and a binary encoded format (WASM). WebAssembly has a few higher level features, such as the ability to import and execute outside methods defined via an interface.</p>
+<h1 id="wasm">WASM</h1>
+<p>Fast. WebAssembly achieves near native performance. <strong>Compared with the Java, Python or JavaScript runtimes, it can be 10x to 100x faster</strong> (how is this possible?). It is also much faster than Docker, especially in cold start and system access.</p>
+<p>Safe. <strong>WebAssembly is a sandbox</strong> with a capability-based security model. It is not only safer than native binaries, but also <strong>safer than OS-level containers</strong> like Docker. Yet it provides access to the underlying system, icnluding new hardware features.</p>
+<p>Portable. WebAssembly apps can be written in C, C++, Rust, Go, and run without change on different OS and hardware platforms.</p>
+<p>Manageable. WebAssembly programs can be provisioned, started, hot swapped, stopped, and <strong>moved around by other applications.</strong></p>
+<p><img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/c73b32d67af1318276dd9888e75c8ca8.png" /></p>
+<p><img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/070dd66796872ae6e3dc63c77176a748.png" /></p>
+<p>@Goals</p>
+<p>To provide a specification of ewasm contract semantics and the Ethereum interface</p>
+<p>To provide an EVM transcompiler, preferably as an ewasm contract</p>
+<p>To provide a metering injector, preferably as an ewasm contract</p>
+<p>To provide a VM implementation for executing ewasm contracts</p>
+<p>To implement an ewasm backend in the Solidity compiler</p>
+<p>To provide a library and instructions for writing contracts in Rust</p>
+<p>To provide a library and instructions for writing contracts in C.</p>
+<p>@ImportantContent</p>
+<p>The project VP Hung-Ying Tai (hydai) from Second State shared the current research content and future direction of Ewasm VM. <strong>The content is very exciting, including EVM bytecode, Webassembly, Ewasm1.0 and Ewasm2.0.</strong></p>
+<h1 id="pallet">PALLET</h1>
+<p>While supporting the <strong>EVM pallet</strong> to provide seamless compatibility with all existing Ethereum applications, <strong>ParaState also provides developers with a next-gen smart contract implementation environment, EWASM (Ethereum-flavored WebAssembly)</strong>. All existing Ethereum smart contracts work on ParaState’s Ewasm VM (Pallet SSVM) without any change.We see more and more parachain projects like Acala, Clover Finance, and Darwinia etc to integrate the EVM pallet into their parachains in order to interact with Ethereum ecosystem.</p>
+<h1 id="eei">EEI</h1>
+<p>Ethereum defines the EEI to allow the client Corresponding <strong>function libraries can be implemented in different languages,</strong> and it is easier to complete prototypes and upgrades. <strong>A set of methods available to ewasm contracts.</strong></p>
+<p>The smart contract of <strong>Ewasm 2.0 is renamed Execution Environments (EE).</strong></p>
+<h1 id="llvm">LLVM</h1>
+<p><strong>LLVM includes a WebAssembly backend to generate WASM output.</strong> Major browser JavaScript engines will notably have native support for WebAssembly, including but not limited to: Google's V8 engine (Node.js and Chromium-based browsers), Microsoft's Chakra engine (Microsoft Edge), Mozilla's Spidermonkey engine (Firefox and Thunderbird). * Other non-browser implementations exist too: wasm-jit-prototype (a standalone VM using an LLVM backend), wabt (a stack-based interpreter), ml-proto (the OCaml reference interpreter), etc.</p>
+<p>it future-proofs the Ethereum protocol by bringing the <strong>LLVM</strong> and WebAssembly developer communities into the Polkadot ecosystem. It is your best choice among one-stop development platforms for next-gen Web3 applications. <strong>It is Ethereum on Steroids.</strong></p>
+<p>SecondState developers recently built a Solidity to Ewasm compiler called Soll.</p>
+<p><img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/b7c9671dd8b831841383864f615382e4.png" /></p>
+<p><img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/54616ed0162c79fb98ff115bf19525c1.png" /></p>
+<p><code>#pretty printed source</code>
+<code>solc/solc --strict-assembly --optimize ~/simple_storage/simple_storage_yul_ir.txt</code></p>
+<p>@SewUp</p>
+<p><strong>The Second State EWasm Utility Program (SewUp)</strong> is a library that helps you sew up your Ethereum project with Rust, just like development in a common backend. </p>
+<p><img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/abef4b5add46893a5c5be2fb268b62d2.png" /></p>
+<p>https://docs.parastate.io/developers-resources/sewup-ewasm/set-up-sewup</p>
+<p>https://docs.parastate.io/developers-resources/sewup-ewasm/tutorial-hello-world</p>
+<p><img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/e120f04193d2f6aed497d0d10a40224e.png" />
+<img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/90ad2987d86671619e2d1bf735dd5e72.png" />
+<img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/d91df8b7d7070ab7f89c24b3cd55fdca.png" />
+<img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/be4efe44a8ae3e6bbcc280391474df13.png" />
+<img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/50949cc1c0fd9fb462cb58a13f8eec63.png" />
+<img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/ca5ffce8589408fbb9e6be6333fea98a.png" />
+<img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/ab9c3bebfeb31b6343c3ed68edb758bd.png" />
+<img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/d52c2ff932d4582064f7257deac68339.png" />
+<img alt="EWASM" src="https://cdn.rcimg.net/arman-riazi-science/591674c4/0a07bafd67a57de724abcc47659e9f5d.png" /></p>
+<p>👆👆👆</p>
+<p>@SSVN</p>
+<p>@SOLL@LLVM</p>
+<p>@Compiler@AOT@JIT</p>
+<p>@WasmEdge</p>
+<p>@DAO</p>
+<p>@STAKE</p>
+<p>📚📚📚</p>
+<h1 id="literature">Literature</h1>
+<p>Ewasm contract: a contract adhering to the ewasm specification</p>
+<p>Ethereum environment interface = EEI</p>
+<p>metering: the act of measuring execution cost in a deterministic way</p>
+<p>metering injector: a transformation tool inserting metering code to an ewasm contract</p>
+<p>EVM transcompiler: an EVM bytecode (the current Ethereum VM) to ewasm transcompiler. See this chapter.</p>
+<p>❤️❤️❤️</p>
+<p>Reseacher &amp; Organized by:</p>
+<p>🙏#Arman-Riazi🤝 </p>
 
               
             </article>
