@@ -13,7 +13,7 @@
     
     
       
-        <title>DevOps - Arman Riazi</title>
+        <title>DevOps: Docker registry Basic Authentication and HTTPS - Arman Riazi</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#devops" class="md-skip">
+        <a href="#devops-docker-registry-basic-authentication-and-https" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              DevOps
+              DevOps: Docker registry Basic Authentication and HTTPS
             
           </span>
         </div>
@@ -591,7 +591,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/devops/Devops.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/armanriazi/armanriazi.github.io/edit/master/docs/public/devops/Docker.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
@@ -600,17 +600,29 @@
 
 
 
-<h1 id="devops">DevOps</h1>
-<p><a href="../Docker/">Docker</a></p>
-<p><a href="../CICD/">CICD</a></p>
-<p><a href="../Cloud/">Cloud</a></p>
-<p><a href="../Virtualization/">Virtualization</a></p>
-<p><a href="../Elastic-Search/">Elastic-Search</a></p>
-<p><a href="../Kubernetes/">Kubernetes</a></p>
-<details class="quote">
-<summary>Quote</summary>
-<p>I success to launched #Microservice  either of #dotnetcore and a sample with #python I captured 6h about implement of ci-cd with #kubernetes and docker that I did not want upload it. For devOps you should better know a little bit about programing languages but it will be ok, if you do not know. e.g I have not write any code by python but I was able to #deploy it.For devops you need to know about configuration, esxi, on-permise, cloud, windows server, linux dist/ubuntu that is out of scope for now surely.</p>
-</details>
+<h1 id="devops-docker-registry-basic-authentication-and-https">DevOps: Docker registry Basic Authentication and HTTPS</h1>
+<p><img alt="Docker" src="https://miro.medium.com/max/406/1*8uXBBUlyJePLINh-xPzlJQ.jpeg" /></p>
+<p>There are two links for handling insecure and docker’ notices about different solutions although we proposed a secure registry so it is better to know a little bit of another information. (Registry, Insecure)
+<code>ufw allow http
+ufw allow https
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -apt-key fingerprint 0EBFCD88
+apt install ca-certificates curl openssh-server ufw apt-transport-https -y
+apt update
+apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common</code>
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+add-apt-repository “deb [arch=amd64] https://download.docker.com/linux/ubuntu$(lsb_release -cs) \stable” <code>apt-get install docker-ce docker-ce-cli containerd.io
+usermod -aG docker linuxusername
+usermod -aG docker root
+docker run hello-world
+docker ps -a
+docker pull registry:2
+(optional)reboot
+*docker run — entrypoint htpasswd registery:2 -Bbn dockerregistry dockerregistery &gt; auth/htpasswd
+*docker run -d -p 5000:5000 — restart=always — name registry -v /opt/auth:/auth -e “REGISTRY_AUTH=htpasswd” -e “REGISTRY_AUTH_HTPASSWD_REALM=Registry Realm” -e REGISTRY_AUTH_HTPASSWD_PATH=/auth/htpasswd -v /opt/certs:/certs -v /opt/data:/var/lib/registry -e REGISTRY_HTTP_TLS_CERTIFICATE=/certs/server.crt -e REGISTRY_HTTP_TLS_KEY=/certs/server.key registry:2
+*curl -kiv -H “Authorization: Basic $(echo -n “dockerregistry:dockerregistry” | base64)” https://localhost:5000/v2
+*docker login localhost:5000
+*docker pull nginx:latest</code>
+Good luck <img alt="🤠" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f920.svg" title=":face_with_cowboy_hat:" /></p>
 
               
             </article>

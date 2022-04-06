@@ -21,9 +21,10 @@
 # 2019-2020
 
 ### Sample Projects
+
 [Solidity-2021](Solidity.md)
 
-[Hyperledger-auzre-2020](Hyperledger.md)
+[Hyperledger-2020](Hyperledger.md)
 
 [Corda-r3-2020](Corda-r3.md)
 
