@@ -25,7 +25,7 @@ author: "Mary Marple"
 
 > Most programmers see themselves #as an intelligence.
 
-> Actually, #I don't think either of us did. We only got it because we couldn't #agree on a painted color/selected type of smart contract.
+> Actually, #I don't think either of us did. We only [[got]] it because we couldn't #agree on a painted color/selected type of smart contract.
 
 
 
@@ -87,7 +87,7 @@ author: "Mary Marple"
 
 > #I've been meaning to speak to you all evening.
 
-
+> Does that #make #sense?
 
 
 
@@ -109,6 +109,7 @@ author: "Mary Marple"
 
 > #I've got some bad news to deliver
 
+> Have #you got that?
 
 
 
@@ -165,6 +166,8 @@ author: "Mary Marple"
 > #I have no #idea
 
 > In my #opinion...(=I find it)
+
+> I need some time to think this over.
 
 > To each his own. Everyone has a different #opinion
 
@@ -229,7 +232,7 @@ author: "Mary Marple"
 
 [[take]]
 the bills take seven working days to go through, is that all right?
-
+You are through to the my experiences. 
 
 
 [[problem]]
@@ -272,10 +275,9 @@ the bills take seven working days to go through, is that all right?
 
 > It is [[cause]] by..
 
-
 > #I think it must be a fault with your OS
 
-
+> I've got problem with...
 
 
 
@@ -440,11 +442,11 @@ the bills take seven working days to go through, is that all right?
 
 > [[How should]] we deal with?
 
-> [[What seems]]to the #trouble?
+> [[What seems]] to the #trouble?
 
 > The [[problem]] should go in a minute.
 
-> [[What's]] the #difference in type of framework?
+> [[What's]] the #difference in type of frameworks?
 
 
 
