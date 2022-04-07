@@ -20,7 +20,7 @@ permalink: /
 >  The philosophy of creating this page is to solve this issue.
 
 > Through to my experiences. 
-**[Go Surfing On...](public/public.md)**
+**[Go Surfing On...](https://armanriazi.github.io/)**
 
 ![Welcome!HelloWorld!](https://ipfs.io/ipfs/QmXEvRE4sRszXSCPTVFu71mSkXNcGedwa3hBiv8ZkbhhUh){ loading=lazy }
 
