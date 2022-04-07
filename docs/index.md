@@ -1,8 +1,17 @@
 ---
-keywords:   armanriazi ArmanRiazi
+keywords:   armanriazi ArmanRiazi Github Blockchain Developer AramisIT ArazhIT
 feature:  Github 
 title: "Arman Riazi"
 author: "Arman Riazi"
+icon: material/emoticon-happy-outline
+search:
+exclude: true
+type:  Link
+keywords:  github armanriazi
+feature:  Github
+author: "Arman Riazi"
+title: "Arman Riazi"
+permalink: /
 ---
 [![mkdocs-ci](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml)
 > I was walking past to a park, heading toward the city center. I saw my friend and then he suggests to create pages like this exactly. I appreciate him.

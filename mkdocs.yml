@@ -9,12 +9,14 @@ nav:
         - 'Private': 'private/private.md'       
     - 'Blockchain':       
         - 'Blockchain': 'public/blockchain/Blockchain.md'        
+    - 'Walk-through': 
+        - 'Walk-through': 'public/public.md'    
     - 'About':
         - 'About': 'about.md'        
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Links':
-        - 'Links': 'links.md'        
+        - 'Links': 'links.md'            
               
 theme:
   name: material

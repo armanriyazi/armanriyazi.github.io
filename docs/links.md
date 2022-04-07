@@ -10,7 +10,7 @@ layout: page
 title: "Personal Links"
 permalink: /links
 ---
-# plink
+# Links
 
 * [English Resume](https://cutt.ly/OPk7FT2)
 
