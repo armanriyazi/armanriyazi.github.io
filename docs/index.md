@@ -21,8 +21,7 @@ permalink: /
 
 > Through to my experiences. 
 **[Go Surfing On...](https://armanriazi.github.io/site)**
-**[Go Surfing On...](main.md)**
-**[Go Surfing On...](README.md)**
+
 
 ![Welcome!HelloWorld!](https://ipfs.io/ipfs/QmXEvRE4sRszXSCPTVFu71mSkXNcGedwa3hBiv8ZkbhhUh){ loading=lazy }
 
