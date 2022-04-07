@@ -1,0 +1,1 @@
+**[Crypto Trading](../archive/trading-archive2021.md)**

@@ -94,6 +94,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.mark
   - pymdownx.tilde
+  - toc:
+     permalink: true
+     toc_depth: 4      
 plugins:  
   - tags:
      tags_file: tags.md
