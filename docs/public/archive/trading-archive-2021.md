@@ -1,6 +1,7 @@
 # [[Archived]] Trade 2021
 
 <details><summery>Captured Films Without translating To English<summery>
+
 <a href="https://www.aparat.com/v/TBk6t" target="_blank">Monetization and how to use the digital currency platform-Part 1</a>
 
 <a href="https://www.aparat.com/v/WCUZ3" target="_blank">Monetization and how to use the digital currency platform-Part 2</a>

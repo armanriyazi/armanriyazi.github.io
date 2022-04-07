@@ -3,10 +3,14 @@
 
 * [Blockchain](blockchain/Blockchain.md)
 
-* [Rust](rust/main.md)
+* [Rust](programming/rust/rust.md)
+
+* [Programming](programming/programming.md)
 
 * [DevOps Engineer](devops/Devops.md)
 
+* [Cryptocurrency-Trade](cryptocurrency/cryptocurrency.md)
+  
 * [Master Thesis](university/master.md)
 
 * [Archive-Projects](archive/main.md)
