@@ -22,22 +22,26 @@
 
  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](setup.md)
 
-# 2019-2020
 
-### Sample Projects
+<details><summary>2019-2020</summary>
+
+
+<details><summary>Sample Projects</summary>
 
 [Solidity](Solidity.md)
 
 [Hyperledger](Hyperledger.md)
 
 [Corda-r3](Corda-r3.md)
+</details>
 
-### Research
+
+<details><summary>Research</summary>
 [Blockchain-tutorials](Blockchain-tutorials.md)
-
+</details>
 ### Passed self-study tutorials 
 
-### ◘ Sample My Academic & Experiences On Blockchain Subject(2020-2021) ◘
+<details><summary>◘ Sample My Academic & Experiences On Blockchain Subject(2020-2021) ◘</summary>
 
 #### Archived Video Packages(**Seen**):
 - INE Understanding Crypto Currencies Bitcoins and Blockchains
@@ -70,9 +74,5 @@ Build a Blockchain and a cryptocurrnecy from scratch
 (link:https://1drv.ms/u/s!AiPa0TLEgzJ7jQ6q5Uj5CYjJKcik)
 #OneNote
 
-#### ◘ Published Summery:Blockchain Popular Platforms ◘
-That is all just for you:
-https://medium.com/@arman.riazi.science
-I Made it with ❤️ for you
-
-
+</details>
+</details>
