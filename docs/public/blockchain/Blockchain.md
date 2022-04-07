@@ -23,27 +23,26 @@
  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](setup.md)
 
 
-<details><summary>2019-2020</summary>
+# 2019-2020
 
 
-<details><summary>Sample Projects</summary>
+## Sample Projects 
 
 [Solidity](Solidity.md)
 
 [Hyperledger](Hyperledger.md)
 
 [Corda-r3](Corda-r3.md)
-</details>
 
 
-<details><summary>Research</summary>
+## Research
 [Blockchain-tutorials](Blockchain-tutorials.md)
-</details>
+
 ### Passed self-study tutorials 
 
-<details><summary>◘ Sample My Academic & Experiences On Blockchain Subject(2020-2021) ◘</summary>
+## ◘ Sample My Academic & Experiences On Blockchain Subject(2020-2021) ◘
 
-#### Archived Video Packages(**Seen**):
+## Archived Video Packages(**Seen**):
 - INE Understanding Crypto Currencies Bitcoins and Blockchains
 - Lynda Ethereum Building Blockchain Decentralized Apps DApps
 - Packtpub Blockchain for Business 2018 The New Industrial Revolution
@@ -52,18 +51,18 @@
 - StoneRiverElearning Starting with NEM (Not yet)
 - TechnicsPublications Data Modeling and Blockchain
 Build a Blockchain and a cryptocurrnecy from scratch
-#### Youtube Channels:
+## Youtube Channels:
 - Hyperledger
 - IBM 
 - DApp university
 - Skycoin
 - Blockstack
 -
-#### Samples have runned by test network:
+## Samples have runned by test network:
 - DAapp university by web3.js (Reactjs,Js)
 - Solidity (build a game)
 - Build blockchain with GOlang (Websocket)
-#### Trading
+## Trading
 - Investment Cryptocurrentcy
 - Trading On The Platforms Of The Cryptocurrency
 - Binance Trading
@@ -74,5 +73,3 @@ Build a Blockchain and a cryptocurrnecy from scratch
 (link:https://1drv.ms/u/s!AiPa0TLEgzJ7jQ6q5Uj5CYjJKcik)
 #OneNote
 
-</details>
-</details>

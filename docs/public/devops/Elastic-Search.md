@@ -20,7 +20,7 @@
 > 
 > Machine learning 
 
-<iframe width="902" height="506" src="https://aparat.com/v/qEyG9" title="Aparat video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="902" height="506" src="https://aparat.com/v/qEyG9"></iframe>
 
 ??? quote
     To Configure ELK stack you need a lot of hardware resource I rented VPS to work in 2020. My experience says it is so power-full and all-in-one database rather than the other DBs.
