@@ -1,8 +1,5 @@
 
-# 2021-2023
-
-
-### Passed self-study tutorials 
+## 2021-2023
 
 ### Research
 <!-- [Blockchain-tutorials](Blockchain-tutorials.md) -->
@@ -22,11 +19,12 @@
 
  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](setup.md)
 
+### Passed self-study tutorials 
 
-# 2019-2020
 
+## 2019-2020
 
-## Sample Projects 
+### Sample Projects 
 
 [Solidity](Solidity.md)
 
@@ -35,14 +33,14 @@
 [Corda-r3](Corda-r3.md)
 
 
-## Research
+### Research
 [Blockchain-tutorials](Blockchain-tutorials.md)
 
 ### Passed self-study tutorials 
 
-## ◘ Sample My Academic & Experiences On Blockchain Subject(2020-2021) ◘
+#### ◘ Sample My Academic & Experiences On Blockchain Subject(2020-2021) ◘
 
-## Archived Video Packages(**Seen**):
+#### Archived Video Packages(**Seen**):
 - INE Understanding Crypto Currencies Bitcoins and Blockchains
 - Lynda Ethereum Building Blockchain Decentralized Apps DApps
 - Packtpub Blockchain for Business 2018 The New Industrial Revolution
@@ -51,18 +49,18 @@
 - StoneRiverElearning Starting with NEM (Not yet)
 - TechnicsPublications Data Modeling and Blockchain
 Build a Blockchain and a cryptocurrnecy from scratch
-## Youtube Channels:
+#### Youtube Channels:
 - Hyperledger
 - IBM 
 - DApp university
 - Skycoin
 - Blockstack
 -
-## Samples have runned by test network:
+#### Samples have runned by test network:
 - DAapp university by web3.js (Reactjs,Js)
 - Solidity (build a game)
 - Build blockchain with GOlang (Websocket)
-## Trading
+#### Trading
 - Investment Cryptocurrentcy
 - Trading On The Platforms Of The Cryptocurrency
 - Binance Trading
