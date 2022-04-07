@@ -1,8 +1,9 @@
+[TOC]
 
 ## 2021-2023
 
 ### Research
-<!-- [Blockchain-tutorials](Blockchain-tutorials.md) -->
+
  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)](whitepaper.md)
 
  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)](substrate-framework.md)

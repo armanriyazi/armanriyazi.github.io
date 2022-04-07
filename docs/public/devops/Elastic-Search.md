@@ -20,13 +20,12 @@
 > 
 > Machine learning 
 
-<iframe width="902" height="506" src="https://aparat.com/v/qEyG9"></iframe>
 
 ??? quote
     To Configure ELK stack you need a lot of hardware resource I rented VPS to work in 2020. My experience says it is so power-full and all-in-one database rather than the other DBs.
     
 ??? info          
-     <!-- <a href="https://aparat.com/v/qEyG9" target="_blank">ELK-Dashboard</a>           -->
+     <a href="https://aparat.com/v/qEyG9" target="_blank">ELK-Dashboard</a>           
      <a href="https://aparat.com/v/rsLZP" target="_blank">ELK-captured 2020</a>     
      **Report of Gartner 2020 about ELK stack**
      ![Gartner-ELK Stack](../../assets/attachments/gartner.jpg)
