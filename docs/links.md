@@ -10,6 +10,9 @@ layout: page
 title: "Personal Links"
 permalink: /links
 ---
+
+[TOC]
+
 # Links
 
 * [English Resume](https://cutt.ly/OPk7FT2)
@@ -55,9 +58,13 @@ permalink: /links
 
 > [ArmanRiazi](https://armanriazi.ir)
 
+###### Personal WebSite(Archived)
+
+> [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
+
 ###### Email addresses
 
-> [Job](mailto:arman2job@gmail.com)
+> [*Job](mailto:arman2job@gmail.com)
 
 > [Developer](mailto:arman2develop@gmail.com)
 
